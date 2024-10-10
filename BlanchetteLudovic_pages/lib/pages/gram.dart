@@ -13,7 +13,10 @@ class _GramState extends State<Gram> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
+      appBar: AppBar(
+        title: Text("data"),
+        //automaticallyImplyLeading: true,
+      ),
       body: Center(
         child: Container(
           width: 300,
